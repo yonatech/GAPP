@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fqa.css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FAQs</title>
+    <link rel="shortout icon" type="imge/-icon" href="pic/logo.png">
+   
+</head>
+<body>
+ <div class="container-fluid">
+     <h2>Frequently Asked Questions(FAQs)</h2>
+     <div class="accordion">
+         <div class="icon"></div>
+        <h5>What is GUI</h5>
+     </div>
+     <div class="panel">
+        <p>Introduction to GUI. ... It is the common user Interface that includes Graphical representation like buttons and
+             icons, and communication can be performed by interacting with these icons rather than the usual text-based or command-based communication. Understanding.
+         A common example of a GUI is Microsoft operating systems.</p>
+    </div>
+     <div class="accordion">
+        <div class="icon"></div>
+        <h5>What is gamers</h5>
+     </div>
+     <div class="panel">
+         <p>A Gamer is a person who plays interactive games, especially video games, tabletop role-playing games, 
+             and skill-based card games, and who plays for usually long periods of time. 
+             There are many different gamer communities around the world. </p>
+     </div>
+     <div class="accordion">
+        <div class="icon"></div>
+        <h5>What is hub </h5>
+     </div>
+     <div class="panel">
+         <p>The Developer Hub (Dev Hub) lets you create and manage scratch orgs. The scratch org 
+             is a source-driven and disposable deployment of Salesforce code and metadata, made for
+              developers and automation.</p>
+     </div>
+     <div class="accordion">
+        <div class="icon"></div>
+        <h5>What is ip</h5>
+     </div>
+     <div class="panel">
+         <p>IP stands for "Internet Protocol," which is the set of rules governing the format of data sent 
+             via the internet or local network. In essence, IP addresses are the identifier that allows 
+             information to be sent between devices on a network: they contain location information and 
+             devices accessible for communication. </p>
+     </div>
+ </div>
+ 
+      
+    
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="ab.html"> Interest </a></li>
+                <li><a href="Hobby.html">Hobby</a></li>
+                <li><a href="pro.html"> Profile</a></li>
+                <li><a href="rig.html"> Rigester </a></li>
+                <li><a href="fqa.htm"> FAQ </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="pic/manu.png" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+                
+            }
+            else{
+                sidenav.style.right ="-250px";
+                
+            }
+
+        }
+    </script>
+
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
